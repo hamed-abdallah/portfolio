@@ -26,7 +26,7 @@ export default function About() {
         
         <span className="italic">Ce que je préfère dans la programmation,
         </span> c'est l'aspect résolution de problèmes. <span className="underline">j'aime</span> le sentiment de trouver enfin une solution à un problème.
-        Ma pile principale est.{" "}
+        Ma pile principale est{" "}
         <span className="font-medium">
           Spring Boot, Angular and PostgreSQL
         </span>
