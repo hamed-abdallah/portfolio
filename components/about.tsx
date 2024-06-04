@@ -30,7 +30,7 @@ export default function About() {
         <span className="font-medium">
           Spring Boot, Angular and PostgreSQL
         </span>
-        . Je connais également Nextjs, NestJS, Laravel and mySQL. je suis actuellement à la recherche d'un poste
+        . Je connais également NextJS, NestJS, Laravel and mySQL. je suis actuellement à la recherche d'un poste
          {" "}
         <span className="font-medium">à temps plein </span>en tant que développeur de logiciels.
       </p>
