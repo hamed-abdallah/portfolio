@@ -116,7 +116,7 @@ export const projectsData = [
  
   },*/
   {
-    title: "Projets intégré Devops",
+    title: "Projet intégré Devops",
     description:
       "Mise en place d'un pipeline CI/CD pour l'automatisation du déploiement d'un site webexistant.",
     tags: ["Gitlab", "Docker", "Jenkins", "Kubernetes", "Azure", "Prometheus", "Terraform"],
