@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import acceuielImg from "@/public/accueil.png";
 import authImg from "@/public/auth.png";
 import dashImg from "@/public/dash.png";
-
+import devImg from "@/public/DevOps.png";
 
 export const links = [
   {
@@ -69,7 +69,6 @@ export const formationData = [
   {
     title: "Cycle d'ingénieur en informatique",
     location: "Polytechnique Sousse",
-   
     icon: React.createElement(LuGraduationCap),
     date: "D'octobre 2020 à septembre 2023",
   },
@@ -109,19 +108,19 @@ export const projectsData = [
     imageUrl: authImg,
   },
     
-  {
+ /* {
     title: "Gestion de scolarité",
     description:
       "Etablir et mettre à jour les fichiers pédagogiques et administratifs. Elaborer les emplois du temps en lien avec les enseignants",
       tags: ["Spring MVC", "Spring Boot", "Angular", "PostgreSQL"],
  
-  },
+  },*/
   {
     title: "Projets intégré Devops",
     description:
       "Mise en place d'un pipeline CI/CD pour l'automatisation du déploiement d'un site webexistant.",
     tags: ["Gitlab", "Docker", "Jenkins", "Kubernetes", "Azure", "Prometheus", "Terraform"],
- 
+  imageUrl: devImg,
   },
 ] as const;
 
