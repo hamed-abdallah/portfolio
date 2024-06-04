@@ -17,7 +17,7 @@ export default function Formation() {
 
   return (
     <section id="formation" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>Fomation</SectionHeading>
+      <SectionHeading>Formation</SectionHeading>
       <VerticalTimeline lineColor="">
         {formationData.map((item, index) => (
           <React.Fragment key={index}>
