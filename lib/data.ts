@@ -113,7 +113,7 @@ export const projectsData = [
     description:
       "Etablir et mettre à jour les fichiers pédagogiques et administratifs. Elaborer les emplois du temps en lien avec les enseignants",
       tags: ["Spring MVC", "Spring Boot", "Angular", "PostgreSQL"],
- 
+
   },*/
   {
     title: "Projet intégré Devops",
@@ -137,7 +137,7 @@ export const skillsData = [
   "Angular",
   "PostgreSQL",
   "Docker",
-  "Kubenetes",
+  "Kubernetes",
   "Jenkins",
   "Python",
 ] as const;
