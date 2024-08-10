@@ -41,7 +41,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Développeur full stack",
-    location: "INRITS",
+    location: "INRITS Sousse",
     description:
       "",
     icon: React.createElement(CgWorkAlt),
