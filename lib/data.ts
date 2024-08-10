@@ -40,16 +40,24 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Développeur full stack",
+    location: "INRITS",
+    description:
+      "",
+    icon: React.createElement(CgWorkAlt),
+    date: "De août 2024 ",
+  },
+  {
     title: "Stage PFE",
     location: "Satoripop sousse",
     description:
-      "Développement d'un micro service : centre de notifi cationqui permet aux entreprises d'envoyer et de gérer des notifi cations à leurs clients ou à leurs employés via 4 types de channel : EMAIL, SMS, PUSH et CHAT (Whatsapp,Messanger, Slack et Line) Tech : JHipster(Spring Boot/Angular), Bitbucket, PostgreSQL, micro service, Figma",
+      "Développement d'un micro service : centre de notification qui permet aux entreprises d'envoyer et de gérer des notifications à leurs clients ou à leurs employés via 4 types de channel : EMAIL, SMS, PUSH et CHAT (Whatsapp,Messanger, Slack et Line) Tech : JHipster(Spring Boot/Angular), Bitbucket, PostgreSQL, micro service, Figma",
     icon: React.createElement(CgWorkAlt),
     date: "De février 2023 à septembre 2023",
   },
   {
     title: "Stage d'été",
-    location: "LEONI TUNISIE M'seken",
+    location: "LEONI TUNISIE M'ssken",
     description:
       "Développement d'une platforme de suivi de l'enregistrement du système SAP(ERP), heure de présence et heure de compensations Tech : Angular, Spring Boot, PostgreSQL.",
     icon: React.createElement(CgWorkAlt),
