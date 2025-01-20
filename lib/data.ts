@@ -43,7 +43,9 @@ export const experiencesData = [
     title: "Développeur full stack",
     location: "INRITS Sousse",
     description:
-      "",
+      "-Déploiement des applications sur Degitalocean \n"+
+      "-Développement de de la plateforme GPI - Global Police Indicators \n" +
+      "-Développement de la partie backend de la plateforme LTM - Live Threat Map (node JS)",
     icon: React.createElement(CgWorkAlt),
     date: "De août 2024 ",
   },
