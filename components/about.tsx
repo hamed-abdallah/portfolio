@@ -28,9 +28,9 @@ export default function About() {
         </span> c'est l'aspect résolution de problèmes. <span className="underline">j'aime</span> le sentiment de trouver enfin une solution à un problème.
         Ma pile principale est{" "}
         <span className="font-medium">
-          Spring Boot, Angular and PostgreSQL
+          Spring Boot, Angular et Oracle Database
         </span>
-        . Je connais également NextJS, NestJS, Laravel and mySQL. je suis actuellement à la recherche d'un poste
+        . Je connais également NextJS, NodeJS(Express), NestJS, mongoDB et PostgreSQL. je suis actuellement à la recherche d'un poste
          {" "}
         <span className="font-medium">à temps plein </span>en tant que développeur de logiciels.
       </p>

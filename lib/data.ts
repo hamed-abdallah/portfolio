@@ -6,6 +6,9 @@ import acceuielImg from "@/public/accueil.png";
 import authImg from "@/public/auth.png";
 import dashImg from "@/public/dash.png";
 import devImg from "@/public/DevOps.png";
+import ltmImg from "@/public/ltm.png";
+import cmsImg from "@/public/cms.png";
+import gpsiImg from "@/public/gpsi.png";
 
 export const links = [
   {
@@ -43,9 +46,10 @@ export const experiencesData = [
     title: "Développeur full stack",
     location: "INRITS Sousse",
     description:
-      "-Déploiement des applications sur Degitalocean \n"+
-      "-Développement de de la plateforme GPI - Global Police Indicators \n" +
-      "-Développement de la partie backend de la plateforme LTM - Live Threat Map (node JS)",
+      "-Développement et maintenance du back-end du système GPSI (Global Police & Security Index), une plateforme de surveillance et d’analyse des données de sécurité mondiale. Le système agrège des données provenant de sources multiples pour fournir des indicateurs critiques sur la criminalité, les menaces, et les risques géopolitiques. (Spring Boot) \n"+
+      "-Création d’un CMS complet pour la plateforme GPSI, permettant aux utilisateurs non techniques de gérer les données de sécurité, les configurations, et les droits d’accès via une interface intuitive. (Spring Boot / Angular) \n" +
+      "-Développement du back-end de la plateforme LTM (Live Threat Map), une application web en temps réel affichant les attaques, les menaces et les statistiques de sécurité sur une carte interactive. (Node.js) \n" +
+      "-Déploiement et gestion des applications sur l’infrastructure cloud DigitalOcean.",
     icon: React.createElement(CgWorkAlt),
     date: "De août 2024 ",
   },
@@ -96,11 +100,32 @@ export const formationData = [
   },
 ] as const;
 export const projectsData = [
+      {
+    title: "GPSI (Global Police & Security Index)",
+    description:
+"Développement et maintenance du back-end du système GPSI (Global Police & Security Index), une plateforme de surveillance et d’analyse des données de sécurité mondiale. Le système agrège des données provenant de sources multiples pour fournir des indicateurs critiques sur la criminalité, les menaces, et les risques géopolitiques. (Spring Boot)",
+ tags: ["Spring Boot", "gitlab", "Oracle Database","Oracle WebLogic","JNDI", "Spring Security"],
+    imageUrl:gpsiImg ,
+  },
+    {
+    title: " CMS GPSI (Global Police & Security Index)",
+    description:
+    "Création d’un CMS complet pour la plateforme GPSI, permettant aux utilisateurs non techniques de gérer les données de sécurité, les configurations, et les droits d’accès via une interface intuitive. (Spring Boot / Angular)",
+ tags: ["Spring Boot","Angular", "gitlab", "Oracle Database","Oracle WebLogic","JNDI", "Spring Security"],
+    imageUrl:cmsImg ,
+  },
+    {
+    title: " LTM (Live Threat Map)",
+    description:
+    "Développement du back-end de la plateforme LTM (Live Threat Map), une application web en temps réel affichant les attaques, les menaces et les statistiques de sécurité sur une carte interactive. (Node.js)",
+    tags: ["NodeJS(Express)","gitlab", "Socket", "mongoDB", "Redis", "Clean Architecture", "PM2"],
+    imageUrl:ltmImg ,
+  },
   {
     title: "Centre de notification",
     description:
       "centre de notification qui permet aux entreprises d'envoyer et de gérer des notifications à leurs clients ou à leurs employés via 4 types de channel : EMAIL, SMS, PUSH et CHAT.",
-    tags: ["JHipster(Spring Boot/Angular),", "Bitbucket,", "PostgreSQL,", "microservice,"],
+    tags: ["JHipster(Spring Boot/Angular)", "Bitbucket", "PostgreSQL", "microservice"],
     imageUrl: dashImg,
   },
   {
