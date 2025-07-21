@@ -166,7 +166,7 @@ export const skillsData = [
   "Next.js",
   "Nest.js",
   "NodeJS(Express)",
-  "GitLabS",
+  "GitLab",
   "Spring boot",
   "Angular",
   "PostgreSQL",
