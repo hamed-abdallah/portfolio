@@ -8,7 +8,7 @@ import dashImg from "@/public/dash.png";
 import devImg from "@/public/DevOps.png";
 import ltmImg from "@/public/ltm.png";
 import cmsImg from "@/public/cms.png";
-import gpsiImg from "@/public/gpsi.png";
+import gpsiImg from "@/public/gpi.png";
 
 export const links = [
   {
