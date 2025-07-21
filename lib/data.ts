@@ -178,7 +178,7 @@ export const skillsData = [
   "JNDI",
   "mongoDB",
   "Spring Security",
-  "Socker",
+  "Socket",
   "Redis",
   "Grafana",
   "Loki",
