@@ -171,7 +171,6 @@ export const skillsData = [
   "Angular",
   "PostgreSQL",
   "Docker",
-  "Kubernetes",
   "Jenkins",
   "Python",
   "Oracle Databas",
