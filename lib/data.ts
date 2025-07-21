@@ -173,7 +173,7 @@ export const skillsData = [
   "Docker",
   "Jenkins",
   "Python",
-  "Oracle Databas",
+  "Oracle Database",
   "Oracle WebLogic",
   "JNDI",
   "mongoDB",
