@@ -184,6 +184,8 @@ export const skillsData = [
   "Loki",
   "SonarQube",
   "OVH",
-  "Digitalocean"
+  "Digitalocean",
+  "Weblogic",
+  "Elastic Search"
 ] as const;
 

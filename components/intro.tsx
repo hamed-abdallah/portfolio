@@ -66,7 +66,7 @@ export default function Intro() {
       >
         <span className="font-bold">Bonjour, je m'appelle  Hamed Abdallah.</span> Je suis{" "}
         <span className="font-bold">ingénieur en informatique, spécialisé en développement full-stack   </span> avec{" "}
-        <span className="font-bold">2 ans</span> d'expérience. J'aime créer
+        <span className="font-bold">3 ans</span> d'expérience. J'aime créer
          <span className="italic">des sites et des applications</span>et je cherche toujours à grandir et à évoluer. Je me concentre sur{" "}
         <span className="underline"> Angular, Spring Boot, ReactJS (NextJS) et NestJS </span>.
       </motion.h1>
