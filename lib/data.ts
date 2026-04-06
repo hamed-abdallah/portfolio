@@ -9,6 +9,7 @@ import devImg from "@/public/DevOps.png";
 import ltmImg from "@/public/ltm.png";
 import cmsImg from "@/public/cms.png";
 import gpsiImg from "@/public/gpi.png";
+import adhanImg from "@/public/adhan.png";
 
 export const links = [
   {
@@ -42,17 +43,21 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Développeur full stack",
-    location: "INRITS Sousse",
-    description:
-      "-Développement et maintenance du back-end du système GPSI (Global Police & Security Index), une plateforme de surveillance et d’analyse des données de sécurité mondiale. Le système agrège des données provenant de sources multiples pour fournir des indicateurs critiques sur la criminalité, les menaces, et les risques géopolitiques. (Spring Boot) \n"+
-      "-Création d’un CMS complet pour la plateforme GPSI, permettant aux utilisateurs non techniques de gérer les données de sécurité, les configurations, et les droits d’accès via une interface intuitive. (Spring Boot / Angular) \n" +
-      "-Développement du back-end de la plateforme LTM (Live Threat Map), une application web en temps réel affichant les attaques, les menaces et les statistiques de sécurité sur une carte interactive. (Node.js) \n" +
-      "-Déploiement et gestion des applications sur l’infrastructure cloud DigitalOcean.",
-    icon: React.createElement(CgWorkAlt),
-    date: "De août 2024 ",
-  },
+{
+  title: "Tech Lead / Développeur Full Stack",
+  location: "INRITS Sousse",
+  description:
+    "• Développement et maintenance du backend du système GPSI pour la police de Dubaï, une plateforme de surveillance et d’analyse en temps réel des données de sécurité mondiales, intégrant des sources multiples pour l’évaluation des indices de sécurité, des taux de criminalité et des risques géopolitiques (Spring Boot).\n" +
+    "• Conception et développement d’un CMS complet pour le système GPSI, permettant aux utilisateurs internes non techniques de gérer les données de sécurité, les configurations du système et les autorisations utilisateurs (Spring Boot / Angular).\n" +
+    "• Développement du backend d’une application web avancée de visualisation des attaques et événements de sécurité en temps réel, incluant statistiques, chronologies, cartographie interactive mondiale et génération de statistiques via des requêtes ElasticSearch, afin d’aider les forces de l’ordre à la prise de décision (Node.js).\n" +
+    "• Conception et développement technique de l’application Adhan, une plateforme de gestion de contenus (Adhkar, Hikma et Announcements), permettant la création, la modification et la planification de contenus via une interface d’administration intuitive, ainsi que la mise à disposition d’API REST pour les applications clientes (JHipster – Spring Boot & Angular).\n" +
+    "• Mise en place d’une architecture sécurisée et scalable, gestion des rôles et permissions, définition des bonnes pratiques, revues de code et supervision technique des développements.\n" +
+    "• Setup complet de la supervision et de l’observabilité avec Grafana, intégrant Prometheus pour les métriques applicatives et système, et Loki pour la centralisation et la visualisation des logs, avec configuration pour l’agrégation des logs Spring Boot.",
+  tech:
+    ["Spring Boot", "Angular", "Node.js", "JHipster", "Gitlab", "Oracle Database", "MongoDB", "Oracle WebLogic", "JNDI", "Docker", "SonarQube", "Grafana", "Loki", "DigitalOcean", "PM2", "Spring Security", "GitLab CI/CD", "Mockito", "REDIS", "ElasticSearch", "MS SQL"],
+  icon: React.createElement(CgWorkAlt),
+  date: "De août 2024"
+},
   {
     title: "Stage PFE",
     location: "Satoripop sousse",
@@ -100,6 +105,13 @@ export const formationData = [
   },
 ] as const;
 export const projectsData = [
+  {
+  title: "IACAD Adhan",
+  description:
+    "Conception et développement de l’application Adhan, une plateforme de gestion de contenus (Adhkar, Hikma et Announcements). Mise en place d’une interface d’administration permettant la création, la modification et la planification des contenus, ainsi que le développement d’API REST fournissant du contenu quotidien aux applications clientes.",
+  tags: ["Spring Boot", "Angular", "JHipster", "REST API", "Spring Security", "MS SQL"],
+  imageUrl: adhanImg,
+},
       {
     title: "GPSI (Global Police & Security Index)",
     description:
